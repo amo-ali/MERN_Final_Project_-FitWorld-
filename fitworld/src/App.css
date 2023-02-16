@@ -1,0 +1,197 @@
+.gallery {
+  height: 50vh;
+  background-color: #262626;
+}
+.item {
+  height: 50vh;
+  border: 10px solid #ef8701;
+}
+#pic1 {
+  background-image: url("/public/images/excer.jpg");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+#pic2 {
+  background-image: url("/public/images/swim.jpg");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+#pic3 {
+  background-image: url("/public/images/cycling.webp");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+#pic4 {
+  background-image: url("/public/images/run2.jpg");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+#pic5 {
+  background-image: url("/public/images/bg2.webp");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+.team {
+  padding: 20px;
+}
+
+.team1 {
+  padding: 10px;
+}
+.team1 img {
+  /* background-image: url("/public/images/team_1.jpg"); */
+  height: 60vh;
+}
+.team_panel {
+  background-color: #ca7505;
+  width: 96.5%;
+}
+.team_name {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(17, 16, 16);
+  font-weight: 600;
+}
+.team_title {
+  color: white;
+  font-weight: 600;
+}
+.contact {
+  height: 50vh;
+}
+/* joinNow */
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.signup {
+  color: black;
+  width: 45%;
+  border: 1px solid grey;
+  padding: 20px;
+  background-color: rgb(245, 212, 170);
+}
+.signUp_back {
+  background-image: url("/public/images/blog.jpg");
+  clip-path: polygon(0 1%, 100% 0, 100% 54%, 0% 100%);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+#joinus {
+  color: white;
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#btn {
+  background-color: #ef8701;
+  border: #ff880f;
+}
+#dashboard {
+  height: 100vh;
+  background-color: #262626;
+}
+#link1 {
+  text-transform: uppercase;
+}
+
+#dashboard {
+  height: 110vh;
+  margin-top: 6%;
+  padding: 20px;
+  /* color: white; */
+}
+
+.activityTitle {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input {
+  border: none;
+  border-bottom: 2px solid #ef8701;
+}
+#form {
+  color: white;
+}
+.daily {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.step {
+  font-size: 15px;
+}
+.step p {
+  color: #ef8701;
+  text-align: center;
+}
+#picc {
+  height: 45vh;
+  /* background-color: #ca7505; */
+  background-image: url("/public/images/clock.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  clip-path: polygon(
+    0% 15%,
+    15% 15%,
+    15% 0%,
+    85% 0%,
+    85% 15%,
+    100% 15%,
+    100% 85%,
+    85% 85%,
+    85% 100%,
+    15% 100%,
+    15% 85%,
+    0% 85%
+  );
+
+  /* clip-path: polygon(0 0, 100% 100%, 100% 0); */
+}
+#BMI {
+  height: 47vh;
+
+  margin-top: 10px;
+}
+#h3 {
+  color: #ef8701;
+}
+#report {
+  margin-top: 8%;
+}
+.profile {
+  height: 30vh;
+  background-color: #ca7505;
+  margin: 10px 0px 10px 50px;
+  padding: 50px;
+  background-image: url("/public/images/profi'.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #ca7505;
+}
+
+.detail {
+  color: black;
+  padding-top: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#userbmi {
+  font-size: 16px;
+  color: black;
+  padding: 15px;
+}
+#userbmi p {
+  padding-top: 15px;
+}
+.displaycard {
+  border: 1px solid #ca7505;
+}
